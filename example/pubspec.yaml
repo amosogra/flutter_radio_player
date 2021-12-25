@@ -18,7 +18,9 @@ dev_dependencies:
     sdk: flutter
 
   flutter_radio_player:
-    path: ../
+    git:
+      url: https://github.com/amosogra/flutter_radio_player.git
+      ref: main
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

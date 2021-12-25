@@ -72,9 +72,11 @@ packages:
   flutter_radio_player:
     dependency: "direct dev"
     description:
-      path: ".."
-      relative: true
-    source: path
+      path: "."
+      ref: main
+      resolved-ref: c242e1ab48ba7f3a21c081fe6879c5b0b0c4c632
+      url: "https://github.com/amosogra/flutter_radio_player.git"
+    source: git
     version: "1.1.0"
   flutter_test:
     dependency: "direct dev"
