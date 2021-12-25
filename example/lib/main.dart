@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
         "Live",
         //"http://196.220.240.6:8000/stream/live",
         //"http://192.168.16.27:8000/stream/live",
-        "http://gill.sukhpal.net:8000/",
+        "http://server-23.stream-server.nl:8438",
         //"http://209.133.216.3:7018/stream?type=http&nocache=1906",
         "false",
       );
@@ -128,12 +128,12 @@ class _MyAppState extends State<MyApp> {
               ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(),
-                child: Text("Change URL"),
+                child: Text("Refresh"),
                 onPressed: () async {
                   _flutterRadioPlayer.setUrl(
                     //"http://192.168.16.27:8000/stream/live",
                     //"http://196.220.240.6:8000/stream/live",
-                    "http://server-23.stream-server.nl:8438",
+                    "http://gill.sukhpal.net:8000/",
                     "false",
                   );
                 },
